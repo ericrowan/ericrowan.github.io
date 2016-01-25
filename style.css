@@ -1,0 +1,108 @@
+/*  
+    --------------
+    GLOBAL & RESET
+    --------------
+*/
+
+:root {
+    font-size: 110%;
+}
+
+body {
+    margin: 0;
+    color: #3d464d;
+    font-size: 1em;
+    line-height: 1.5;
+    font-family: "adobe-garamond-pro", serif;
+    font-weight: 400;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*  
+    ----------
+    TYPOGRAPHY
+    ----------
+*/
+
+strong {
+    font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+h4, h5, h6 {
+    font-weight: 400;
+}
+
+em {
+    opacity: 0.75;
+}
+
+a {
+    color: #3d464d;
+}
+
+a:hover {
+    color: #508FAB;
+}
+
+ul {
+    padding-left: 1em;
+}
+
+/*  
+    ------------------
+    LAYOUT & STRUCTURE
+    ------------------
+*/
+
+.wrapper {
+    margin: 0 auto;
+    padding: 2em;
+}
+
+
+header, section {
+    margin-bottom: 4em;
+}
+
+footer {
+    font-size: .75em;
+}
+
+.avatar {
+    border-radius: 10em;
+    width: 8em;
+}
+
+/*  
+    -------------
+    MEDIA QUERIES
+    -------------
+*/
+
+@media (min-width: 600px) {
+    :root {
+        font-size: 115%;
+    }
+    .wrapper {
+        padding: 4em;
+        max-width: 30em;
+    }
+}
+
+@media (min-width: 1000px) {
+    :root {
+        font-size: 120%;
+    }
+}
