@@ -29,15 +29,6 @@ TYPOGRAPHY
 ----------
 */
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 400;
-}
-
 a {
   color: #1e1e1e;
 }
@@ -73,7 +64,7 @@ LAYOUT & STRUCTURE
 
 header,
 section {
-  margin-bottom: 4em;
+  margin-bottom: 8em;
 }
 
 footer {
