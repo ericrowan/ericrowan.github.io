@@ -5,7 +5,7 @@
 */
 
 :root {
-    font-size: 120%;
+    font-size: 110%;
 }
 
 body {
@@ -14,7 +14,7 @@ body {
     font-size: 1em;
     line-height: 1.5;
     font-family: "proxima-nova", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 img {
@@ -42,7 +42,7 @@ h1, h2, h3 {
 }
 
 h4, h5, h6 {
-    font-weight: 400;
+    font-weight: 300;
 }
 
 em {
@@ -94,7 +94,7 @@ footer {
 
 @media (min-width: 600px) {
     :root {
-        font-size: 125%;
+        font-size: 115%;
     }
     .wrapper {
         padding: 4em;
@@ -104,6 +104,6 @@ footer {
 
 @media (min-width: 1000px) {
     :root {
-        font-size: 130%;
+        font-size: 120%;
     }
 }
