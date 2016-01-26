@@ -10,11 +10,13 @@ GLOBAL & RESET
 
 body {
   margin: 0;
-  color: #777;
+  color: #1e1e1e;
   font-size: 1em;
   line-height: 1.5;
   font-family: "adobe-garamond-pro", serif;
   font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 img {
@@ -36,15 +38,15 @@ h6 {
   font-family: "brandon-grotesque", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #1e1e1e;
-}
-
-a {
   color: #777;
 }
 
+a {
+  color: #1e1e1e;
+}
+
 a:hover {
-  color: #555;
+  color: #3e3e3e;
 }
 
 ul {
