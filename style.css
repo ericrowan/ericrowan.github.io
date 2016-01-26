@@ -41,6 +41,10 @@ ul {
   padding-left: 1em;
 }
 
+.page-title {
+  font-weight: 400;
+}
+
 .section-title {
   color: #eb7966;
   font-style: italic;
