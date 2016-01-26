@@ -13,8 +13,8 @@ body {
   color: #3d464d;
   font-size: 1em;
   line-height: 1.5;
-  font-family: "proxima-nova", sans-serif;
-  font-weight: 300;
+  font-family: "adobe-garamond-pro", serif;
+  font-weight: 400;
 }
 
 img {
@@ -26,10 +26,6 @@ img {
 TYPOGRAPHY
 ----------
 */
-
-strong {
-  font-weight: 700;
-}
 
 h1,
 h2,
