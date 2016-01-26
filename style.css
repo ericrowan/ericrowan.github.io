@@ -10,7 +10,7 @@ GLOBAL & RESET
 
 body {
   margin: 0;
-  color: #3d464d;
+  color: #777;
   font-size: 1em;
   line-height: 1.5;
   font-family: "adobe-garamond-pro", serif;
@@ -37,6 +37,7 @@ h6 {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
+  color: #1e1e1e;
 }
 
 em {
@@ -44,11 +45,11 @@ em {
 }
 
 a {
-  color: #3d464d;
+  color: #777;
 }
 
 a:hover {
-  color: #508fab;
+  color: #555;
 }
 
 ul {
