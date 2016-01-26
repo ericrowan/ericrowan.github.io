@@ -55,6 +55,11 @@ ul {
   font-style: italic;
 }
 
+.section-subtitle {
+  font-variant: small-caps;
+  letter-spacing: 1px;
+}
+
 /*
 ------------------
 LAYOUT & STRUCTURE
