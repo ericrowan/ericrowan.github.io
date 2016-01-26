@@ -10,7 +10,7 @@ GLOBAL & RESET
 
 body {
   margin: 0;
-  color: #1e1e1e;
+  color: #222;
   font-size: 1em;
   line-height: 1.5;
   font-family: "adobe-garamond-pro", serif;
@@ -35,9 +35,12 @@ h3,
 h4,
 h5,
 h6 {
+/*
   font-family: "brandon-grotesque", sans-serif;
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 1px;
+*/
 }
 
 a {
