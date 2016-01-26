@@ -1,11 +1,11 @@
-/*  
+/*
     --------------
     GLOBAL & RESET
     --------------
 */
 
 :root {
-    font-size: 110%;
+    font-size: 120%;
 }
 
 body {
@@ -13,7 +13,7 @@ body {
     color: #3d464d;
     font-size: 1em;
     line-height: 1.5;
-    font-family: "adobe-garamond-pro", serif;
+    font-family: "proxima-nova", sans-serif;
     font-weight: 400;
 }
 
@@ -21,7 +21,7 @@ img {
     max-width: 100%;
 }
 
-/*  
+/*
     ----------
     TYPOGRAPHY
     ----------
@@ -32,6 +32,7 @@ strong {
 }
 
 h1, h2, h3, h4, h5, h6 {
+    font-family: "brandon-grotesque", sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -60,7 +61,7 @@ ul {
     padding-left: 1em;
 }
 
-/*  
+/*
     ------------------
     LAYOUT & STRUCTURE
     ------------------
@@ -81,11 +82,11 @@ footer {
 }
 
 .avatar {
-    border-radius: 10em;
+    border-radius: 8em;
     width: 8em;
 }
 
-/*  
+/*
     -------------
     MEDIA QUERIES
     -------------
@@ -93,7 +94,7 @@ footer {
 
 @media (min-width: 600px) {
     :root {
-        font-size: 115%;
+        font-size: 125%;
     }
     .wrapper {
         padding: 4em;
@@ -103,6 +104,6 @@ footer {
 
 @media (min-width: 1000px) {
     :root {
-        font-size: 120%;
+        font-size: 130%;
     }
 }
