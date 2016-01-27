@@ -62,7 +62,7 @@ LAYOUT & STRUCTURE
 */
 
 .wrapper {
-  margin: 0;
+  margin: 0 auto;
   padding: 2em;
   background-color: #fff;
 }
