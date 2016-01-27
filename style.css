@@ -62,6 +62,10 @@ ul {
   letter-spacing: 2px;
 }
 
+.lead {
+  font-size: 130%;
+}
+
 /*
 ------------------
 LAYOUT & STRUCTURE
