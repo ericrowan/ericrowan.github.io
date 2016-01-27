@@ -74,6 +74,10 @@ footer {
   font-size: 0.75em;
 }
 
+.intro {
+  background-color: #131313;
+}
+
 .avatar {
   width: 10em;
 }
