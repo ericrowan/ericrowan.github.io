@@ -75,6 +75,8 @@ footer {
 
 .avatar {
   width: 10em;
+  border-top-left-radius: 10em;
+  border-top-right-radius: 10em;
 }
 
 .twitter {
