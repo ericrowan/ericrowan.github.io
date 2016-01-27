@@ -114,7 +114,7 @@ MEDIA QUERIES
 -------------
 */
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   :root {
     font-size: 115%;
   }
@@ -124,7 +124,7 @@ MEDIA QUERIES
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1024px) {
   :root {
     font-size: 120%;
   }
