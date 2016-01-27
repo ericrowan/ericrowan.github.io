@@ -73,8 +73,9 @@ LAYOUT & STRUCTURE
   padding: 2em;
 }
 
+header,
 section {
-  margin-bottom: 5em;
+  margin: 2.5em 0;
 }
 
 footer {
