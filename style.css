@@ -86,6 +86,10 @@ footer {
   width: 10em;
 }
 
+.intro {
+  background: #efefef;
+}
+
 .twitter {
   margin: 1em 0;
 }
