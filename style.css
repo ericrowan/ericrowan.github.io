@@ -5,7 +5,7 @@ GLOBAL & RESET
 */
 
 :root {
-  font-size: 115%;
+  font-size: 110%;
 }
 
 body {
@@ -121,7 +121,7 @@ MEDIA QUERIES
 
 @media (min-width: 600px) {
   :root {
-    font-size: 120%;
+    font-size: 115%;
   }
   .wrapper {
     max-width: 35em;
@@ -130,6 +130,6 @@ MEDIA QUERIES
 
 @media (min-width: 1000px) {
   :root {
-    font-size: 125%;
+    font-size: 120%;
   }
 }
