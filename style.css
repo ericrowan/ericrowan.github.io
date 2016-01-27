@@ -74,16 +74,16 @@ LAYOUT & STRUCTURE
 
 .wrapper {
   margin: 0 auto;
-  padding: 5em 2.5em;
+  padding: 2em 1em;
 }
 
 section {
-  margin-bottom: 5em;
+  margin-bottom: 4em;
 }
 
 .avatar {
-  width: 10em;
-  border-radius: 10em;
+  width: 8em;
+  border-radius: 8em;
 }
 
 .intro {
@@ -120,6 +120,7 @@ MEDIA QUERIES
   }
   .wrapper {
     max-width: 30em;
+    padding: 4em 2em;
   }
 }
 
