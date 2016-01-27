@@ -82,6 +82,10 @@ footer {
   margin: 1em 0;
 }
 
+.twitter cite {
+  opacity: 0.5;
+}
+
 /*
 -------------
 MEDIA QUERIES
