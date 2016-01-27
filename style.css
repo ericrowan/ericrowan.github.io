@@ -75,6 +75,7 @@ LAYOUT & STRUCTURE
 .wrapper {
   margin: 0 auto;
   padding: 2em 1em;
+  max-width: 30em;
 }
 
 section {
@@ -119,8 +120,7 @@ MEDIA QUERIES
     font-size: 115%;
   }
   .wrapper {
-    max-width: 30em;
-    padding: 4em 2em;
+    /*padding: 4em 2em;*/
   }
 }
 
