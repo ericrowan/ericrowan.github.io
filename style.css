@@ -125,6 +125,7 @@ MEDIA QUERIES
   }
   .wrapper {
     max-width: 35em;
+    padding: 0;
   }
 }
 
