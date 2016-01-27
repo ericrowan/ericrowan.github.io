@@ -84,6 +84,7 @@ footer {
 
 .avatar {
   width: 10em;
+  border-radius: 10em;
 }
 
 .intro {
