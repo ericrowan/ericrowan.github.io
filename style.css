@@ -120,12 +120,14 @@ MEDIA QUERIES
   }
   .wrapper {
     max-width: 30em;
-    padding: 4em 2em;
   }
 }
 
 @media (min-width: 1024px) {
   :root {
     font-size: 120%;
+  }
+  .wrapper {
+    padding: 4em 2em;    
   }
 }
