@@ -15,8 +15,6 @@ body {
   font-size: 1em;
   line-height: 1.5;
   font-weight: 400;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 img {
@@ -68,7 +66,7 @@ LAYOUT & STRUCTURE
 
 header,
 section {
-  margin-bottom: 8em;
+  margin-bottom: 10em;
 }
 
 footer {
@@ -76,8 +74,7 @@ footer {
 }
 
 .avatar {
-  border-radius: 8em;
-  width: 8em;
+  width: 10em;
 }
 
 /*
@@ -91,7 +88,7 @@ MEDIA QUERIES
     font-size: 115%;
   }
   .wrapper {
-    padding: 4em;
+    padding: 5em;
     max-width: 30em;
   }
 }
