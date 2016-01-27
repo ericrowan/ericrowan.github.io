@@ -74,11 +74,12 @@ LAYOUT & STRUCTURE
 
 .wrapper {
   margin: 0 auto;
+  padding: 2em;
 }
 
 header,
 section {
-  padding: 2.5em;
+  padding: 2.5em 0;
 }
 
 footer {
