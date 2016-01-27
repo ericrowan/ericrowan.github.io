@@ -54,13 +54,14 @@ ul {
 
 .section-title {
   color: #eb7966;
+  font-family: "adobe-garamond-pro", serif;
   font-weight: 400;
   font-style: italic;
 }
 
 .section-subtitle {
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 
 /*
