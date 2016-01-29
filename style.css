@@ -88,16 +88,7 @@ section {
 }
 
 .intro {
-  background: #222;
-  color: #fff;
-}
-
-.intro a {
-  color: #fff;
-}
-
-.intro a:hover {
-  color: #eb7966;
+  background: #fafafa;
 }
 
 .twitter {
@@ -118,9 +109,6 @@ MEDIA QUERIES
 @media (min-width: 768px) {
   :root {
     font-size: 115%;
-  }
-  .wrapper {
-    /*padding: 4em 2em;*/
   }
 }
 
