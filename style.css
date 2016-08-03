@@ -97,9 +97,10 @@ LAYOUT & STRUCTURE
 ------------------
 */
 
-.intro, .page {
+.intro,
+.page {
   max-width: 50em;
-  padding: 2em;
+  padding: 1em;
   margin: 0 auto;
 }
 
@@ -134,6 +135,11 @@ MEDIA QUERIES
 @media (min-width: 768px) {
   :root {
     font-size: 115%;
+  }
+
+  .intro,
+  .page {
+    padding: 2em;
   }
 
   .intro {
