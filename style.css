@@ -112,6 +112,10 @@ section {
   margin-bottom: 4em;
 }
 
+.page {
+  margin-right: 20em;
+}
+
 .avatar {
   width: 8em;
   border-radius: 8em;
