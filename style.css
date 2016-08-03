@@ -52,14 +52,15 @@ ul {
   font-family: "minion-pro", serif;
 }
 
-.section-title {
-  font-weight: 300;
-  color: #eb7966;
-}
-
+.section-title,
 .section-subtitle {
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+
+.section-title {
+  display: inline-block;
+  border-bottom: 2px solid #c2d6c4;
 }
 
 .lead {
