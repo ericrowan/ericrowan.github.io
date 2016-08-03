@@ -54,6 +54,7 @@ li {
 
 .page-title {
   font-family: "minion-pro", serif;
+  font-size: 3em;
   font-weight: 400;
 }
 
@@ -91,6 +92,10 @@ LAYOUT & STRUCTURE
   margin: 0 auto;
   padding: 2em 1em;
   max-width: 30em;
+}
+
+.intro .wrapper {
+  max-width: 50em;
 }
 
 section {
