@@ -84,6 +84,12 @@ li {
   font-style: italic;
 }
 
+.blockquote {
+  color: #c2d6c4;
+  margin-left: 4em;
+  border-left: 2px solid #c2d6c4;
+}
+
 .read-more {
   opacity: 0.25;
   font-size: 85%;
