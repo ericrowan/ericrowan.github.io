@@ -45,7 +45,11 @@ a:hover {
 }
 
 ul {
-  padding-left: 1em;
+  padding-left: 0;
+}
+
+li {
+  display: none;
 }
 
 .page-title {
