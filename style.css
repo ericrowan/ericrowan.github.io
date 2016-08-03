@@ -97,15 +97,14 @@ LAYOUT & STRUCTURE
 ------------------
 */
 
-.wrapper {
-  margin: 0 auto;
+.intro, .page {
+  max-width: 50em;
   padding: 2em 1em;
-  max-width: 30em;
+  margin: 0 auto;
 }
 
-.intro .wrapper {
-  /*margin: 10em 20em;*/
-  max-width: 50em;
+.wrapper {
+  max-width: 30em;
 }
 
 section {
