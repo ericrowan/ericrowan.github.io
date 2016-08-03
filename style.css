@@ -113,7 +113,7 @@ section {
 }
 
 .page {
-  margin-right: 20em;
+  max-width: 30em;
 }
 
 .avatar {
