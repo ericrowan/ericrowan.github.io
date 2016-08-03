@@ -69,6 +69,10 @@ li {
   border-bottom: 3px solid #c2d6c4;
 }
 
+.section-subtitle {
+  margin: 1em 0 0;
+}
+
 .no-border {
     border: none;
 }
