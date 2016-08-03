@@ -37,11 +37,11 @@ h6 {
 }
 
 a {
-  color: #222;
+  color: #231f20;
 }
 
 a:hover {
-  color: #eb7966;
+  color: #ff544f;
 }
 
 ul {
@@ -50,7 +50,6 @@ ul {
 
 .page-title {
   font-family: "minion-pro", serif;
-  font-size: 3em;
 }
 
 .section-title {
