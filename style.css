@@ -99,13 +99,8 @@ LAYOUT & STRUCTURE
 
 .intro,
 .page {
-  max-width: 50em;
   padding: 1em;
   margin: 0 auto;
-}
-
-.wrapper {
-  max-width: 30em;
 }
 
 section {
@@ -137,9 +132,14 @@ MEDIA QUERIES
     font-size: 115%;
   }
 
+  .wrapper {
+    max-width: 30em;
+  }
+
   .intro,
   .page {
     padding: 2em;
+    max-width: 50em;
   }
 
   .intro {
