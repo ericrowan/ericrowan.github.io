@@ -85,8 +85,9 @@ li {
 }
 
 .blockquote {
-  max-width: 30em;
+  font-style: italic;
   color: #c2d6c4;
+  max-width: 30em;
 }
 
 .read-more {
