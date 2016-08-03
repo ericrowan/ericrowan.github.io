@@ -57,6 +57,10 @@ li {
   font-weight: 400;
 }
 
+.highlighter {
+  color: #f3f315;
+}
+
 .section-title,
 .section-subtitle {
   text-transform: uppercase;
