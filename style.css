@@ -86,10 +86,7 @@ li {
 
 .blockquote {
   max-width: 30em;
-  opacity: 0.5;
   color: #c2d6c4;
-  padding-left: 2em;
-  border-left: 2px solid #c2d6c4;
 }
 
 .read-more {
