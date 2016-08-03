@@ -63,6 +63,10 @@ ul {
   border-bottom: 2px solid #c2d6c4;
 }
 
+.no-border {
+    border: none;
+}
+
 .lead {
   font-size: 125%;
 }
