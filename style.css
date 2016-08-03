@@ -85,6 +85,11 @@ li {
   font-style: italic;
 }
 
+.read-more {
+  opacity: 0.25;
+  font-size: 85%;
+}
+
 /*
 ------------------
 LAYOUT & STRUCTURE
