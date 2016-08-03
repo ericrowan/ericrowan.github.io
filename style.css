@@ -49,7 +49,7 @@ ul {
 }
 
 li {
-  display: none;
+  list-style-type: none;
 }
 
 .page-title {
