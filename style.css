@@ -88,6 +88,7 @@ li {
 .read-more {
   opacity: 0.25;
   font-size: 85%;
+  font-style: italic;
 }
 
 /*
