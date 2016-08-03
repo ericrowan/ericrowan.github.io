@@ -10,7 +10,7 @@ GLOBAL & RESET
 
 body {
   margin: 0;
-  color: #222;
+  color: #58595b;
   font-family: "minion-pro", serif;
   font-size: 1em;
   line-height: 1.5;
@@ -50,6 +50,7 @@ ul {
 
 .page-title {
   font-family: "minion-pro", serif;
+  font-size: 3em;
 }
 
 .section-title {
