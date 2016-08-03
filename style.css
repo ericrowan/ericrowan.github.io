@@ -103,10 +103,6 @@ LAYOUT & STRUCTURE
   margin: 0 auto;
 }
 
-.intro {
-  margin: 5em auto 0;
-}
-
 .wrapper {
   max-width: 30em;
 }
@@ -139,10 +135,20 @@ MEDIA QUERIES
   :root {
     font-size: 115%;
   }
+
+  .intro {
+    margin: 3em auto 0;
+  }
+
 }
 
 @media (min-width: 1024px) {
   :root {
     font-size: 120%;
   }
+
+  .intro {
+    margin: 5em auto 0;
+  }
+
 }
