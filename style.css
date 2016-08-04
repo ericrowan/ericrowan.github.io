@@ -109,6 +109,12 @@ LAYOUT & STRUCTURE
 }
 
 .intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro > .wrapper {
   height: 100vh;
 }
 
