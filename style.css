@@ -108,6 +108,10 @@ LAYOUT & STRUCTURE
   margin: 0 auto;
 }
 
+.intro {
+  height: 100vh;
+}
+
 section {
   margin-bottom: 4em;
 }
