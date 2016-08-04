@@ -114,7 +114,7 @@ LAYOUT & STRUCTURE
   justify-content: center;
 }
 
-.intro > .wrapper {
+.intro > .flex {flex
   height: 100vh;
 }
 
