@@ -112,7 +112,6 @@ LAYOUT & STRUCTURE
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
 }
 
 .flex {
@@ -162,7 +161,7 @@ MEDIA QUERIES
   }
 
   .intro {
-    /*margin: 3em auto 0;*/
+    height: 100vh;
   }
 
 }
