@@ -108,7 +108,7 @@ LAYOUT & STRUCTURE
   margin: 0 auto;
 }
 
-.intro {
+.flex {
   display: flex;
   align-items: center;
   justify-content: center;
