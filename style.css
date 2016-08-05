@@ -162,6 +162,10 @@ MEDIA QUERIES
     height: 100vh;
   }
 
+  .page-title {
+    font-size: 3.25em;
+  }
+
 }
 
 @media (min-width: 1024px) {
