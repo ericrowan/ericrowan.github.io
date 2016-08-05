@@ -76,24 +76,8 @@ li {
   margin: 1em 0 -1em;
 }
 
-.no-border {
-    border: none;
-}
-
 .lead {
   font-size: 125%;
-  font-style: italic;
-}
-
-.blockquote {
-  font-style: italic;
-  color: #c2d6c4;
-  max-width: 30em;
-}
-
-.read-more {
-  opacity: 0.25;
-  font-size: 85%;
   font-style: italic;
 }
 
@@ -152,7 +136,7 @@ MEDIA QUERIES
     max-width: 30em;
   }
 
-  .intro,
+  .flex,
   .page {
     padding: 2em;
     max-width: 45em;
@@ -170,7 +154,7 @@ MEDIA QUERIES
     font-size: 130%;
   }
 
-  .intro {
+  .flex {
     height: 100vh;
   }
 
