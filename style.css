@@ -100,6 +100,10 @@ LAYOUT & STRUCTURE
   justify-content: center;
 }
 
+.page {
+  margin-top: 4em;
+}
+
 /*
 .intro,
 .intro a,
@@ -111,20 +115,6 @@ LAYOUT & STRUCTURE
 
 section {
   margin-bottom: 4em;
-}
-
-.avatar {
-  width: 8em;
-  border-radius: 8em;
-}
-
-.twitter {
-  margin: 1em 0;
-}
-
-.twitter cite {
-  opacity: 0.5;
-  font-size: 0.75em;
 }
 
 /*
@@ -141,10 +131,6 @@ MEDIA QUERIES
 
   .wrapper {
     max-width: 30em;
-  }
-
-  .page {
-    margin-top: 4em;
   }
 
   .flex,
