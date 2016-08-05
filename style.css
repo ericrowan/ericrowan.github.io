@@ -69,7 +69,7 @@ li {
 }
 
 .section-title::after {
-  display: inline-block;
+  display: block;
   content: '—';
 }
 
