@@ -147,7 +147,7 @@ MEDIA QUERIES
   }
 
   .page-title {
-    font-size: 2.5em;
+    font-size: 3em;
   }
 
   .wrapper {
@@ -169,7 +169,7 @@ MEDIA QUERIES
 @media (min-width: 1024px) {
 
   .page-title {
-    font-size: 3em;
+    font-size: 3.5em;
   }
 
   :root {
