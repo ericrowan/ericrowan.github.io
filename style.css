@@ -151,13 +151,13 @@ MEDIA QUERIES
   }
 
   .wrapper {
-    max-width: 30em;
+    /*max-width: 30em;*/
   }
 
   .intro,
   .page {
     padding: 2em;
-    max-width: 50em;
+    max-width: 40em;
   }
 
   .intro {
