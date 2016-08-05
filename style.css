@@ -158,10 +158,6 @@ MEDIA QUERIES
     max-width: 45em;
   }
 
-  .intro {
-    height: 100vh;
-  }
-
   .page-title {
     font-size: 3.25em;
   }
@@ -172,6 +168,10 @@ MEDIA QUERIES
 
   :root {
     font-size: 130%;
+  }
+
+  .intro {
+    height: 100vh;
   }
 
   .page-title {
