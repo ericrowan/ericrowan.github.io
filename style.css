@@ -100,7 +100,7 @@ LAYOUT & STRUCTURE
 
 .intro {
   /*background: #f8faf9;*/
-  background: linear-gradient(to bottom, #f8faf9, #ffffff);
+  background: linear-gradient(to bottom, #ffffff, #f8faf9);
   display: flex;
   height: 100vh;
 }
