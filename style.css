@@ -95,11 +95,16 @@ LAYOUT & STRUCTURE
 
 .intro {
   background: #ff544f;
-  color: #ffffff;
 
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.intro,
+.intro a,
+.intro .section-subtitle {
+  color: #ffffff;
 }
 
 section {
