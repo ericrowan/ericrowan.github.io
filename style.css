@@ -90,10 +90,11 @@ LAYOUT & STRUCTURE
 .flex,
 .page {
   padding: 1em;
-  margin: 0 auto;
+  margin: 2em auto;
 }
 
 .intro {
+  background: #f8faf9;
   display: flex;
   align-items: center;
   justify-content: center;
