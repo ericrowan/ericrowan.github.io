@@ -151,7 +151,7 @@ MEDIA QUERIES
   }
 
   .wrapper {
-    /*max-width: 30em;*/
+    max-width: 30em;
   }
 
   .intro,
@@ -169,7 +169,7 @@ MEDIA QUERIES
 @media (min-width: 1024px) {
 
   .page-title {
-    font-size: 3.5em;
+    font-size: 4em;
   }
 
   :root {
