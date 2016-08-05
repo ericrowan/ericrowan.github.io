@@ -157,7 +157,7 @@ MEDIA QUERIES
   .intro,
   .page {
     padding: 2em;
-    max-width: 40em;
+    max-width: 45em;
   }
 
   .intro {
@@ -169,7 +169,7 @@ MEDIA QUERIES
 @media (min-width: 1024px) {
 
   .page-title {
-    font-size: 4em;
+    font-size: 3.5em;
   }
 
   :root {
