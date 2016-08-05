@@ -99,12 +99,14 @@ LAYOUT & STRUCTURE
   justify-content: center;
 }
 
+/*
 .intro,
 .intro a,
 .intro .section-title {
   background: #ff544f;
   color: #ffffff;
 }
+*/
 
 section {
   margin-bottom: 4em;
