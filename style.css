@@ -68,6 +68,11 @@ li {
   color: #c2d6c4;
 }
 
+.section-title::after {
+  display: inline-block;
+  content: '—';
+}
+
 .section-subtitle {
   margin: 4em 0 -1em;
 }
