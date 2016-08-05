@@ -103,6 +103,7 @@ LAYOUT & STRUCTURE
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100vh;
 }
 
 .page {
@@ -154,10 +155,6 @@ MEDIA QUERIES
 
   :root {
     font-size: 130%;
-  }
-
-  .intro {
-    height: 100vh;
   }
 
   .page-title {
