@@ -99,9 +99,6 @@ LAYOUT & STRUCTURE
   justify-content: center;
 }
 
-.flex {
-}
-
 section {
   margin-bottom: 4em;
 }
@@ -154,7 +151,7 @@ MEDIA QUERIES
     font-size: 130%;
   }
 
-  .flex {
+  .intro {
     height: 100vh;
   }
 
