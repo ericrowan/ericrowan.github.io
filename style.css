@@ -94,6 +94,9 @@ LAYOUT & STRUCTURE
 }
 
 .intro {
+  background: #ff544f;
+  color: #ffffff;
+
   display: flex;
   align-items: center;
   justify-content: center;
