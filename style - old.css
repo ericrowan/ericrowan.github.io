@@ -1,0 +1,137 @@
+/*
+--------------
+GLOBAL & RESET
+--------------
+*/
+
+:root {
+  font-size: 110%;
+}
+
+body {
+  margin: 0;
+  color: #58595b;
+  font-family: "minion-pro", serif;
+  font-size: 1em;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*
+----------
+TYPOGRAPHY
+----------
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "brandon-grotesque", sans-serif;
+}
+
+a {
+  color: #58595b;
+}
+
+a:hover {
+  color: #ff544f;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.page-title {
+  font-family: "minion-pro", serif;
+  font-weight: 400;
+  font-size: 2em;
+}
+
+.section-title,
+.section-subtitle {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.section-subtitle {
+  margin: 4em 0 -1em;
+}
+
+.section-subtitle:first-of-type {
+  margin: 1em 0 -1em;
+}
+
+.lead {
+  font-size: 110%;
+  font-style: italic;
+}
+
+/*
+------------------
+LAYOUT & STRUCTURE
+------------------
+*/
+
+.flex,
+.page {
+  padding: 1em;
+  margin: 0 auto;
+}
+
+.intro {
+  margin-top: 4em;
+  /*display: flex;
+  height: 100vh;*/
+}
+
+section {
+  margin-bottom: 4em;
+}
+
+/*
+-------------
+MEDIA QUERIES
+-------------
+*/
+
+@media (min-width: 768px) {
+
+  :root {
+    font-size: 120%;
+  }
+
+  .intro {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .wrapper {
+    max-width: 30em;
+  }
+
+  .flex,
+  .page {
+    padding: 2em;
+    max-width: 45em;
+  }
+
+}
+
+@media (min-width: 1024px) {
+
+  :root {
+    font-size: 130%;
+  }
+
+}
