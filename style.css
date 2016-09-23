@@ -4,14 +4,24 @@ GLOBAL & RESET
 --------------
 */
 
+* {
+  box-sizing: border-box;
+}
+
 :root {
   font-size: 110%;
 }
 
 body {
   margin: 0;
-  /*font-family: "minion-pro", serif;*/
+  /*font-family: 'Inconsolata', monospace;*/
+  /*font-family: 'Open Sans', sans-serif;*/
+  color: #222;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
   line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 img {
@@ -30,8 +40,9 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  /*font-family: "brandon-grotesque", sans-serif;*/
+h6,
+strong {
+  font-weight: 600;
 }
 
 a {
@@ -85,22 +96,27 @@ LAYOUT & STRUCTURE
 .page {
   /*padding: 1em;*/
   margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  /*height: 100vh;*/
+  /*align-items: center;*/
+
 }
 
-.header-main {
-  margin-top: 5em;
-  /*display: flex;
-  height: 100vh;*/
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
-.footer-main {
-  margin-bottom: 5em;
+.nav li {
+  margin-left: 1em;
 }
 
 section {
-  margin: 5em 0;
+  /*margin: 5em 0;*/
 }
-
 
 /*
 -------------
@@ -114,11 +130,6 @@ MEDIA QUERIES
     /*font-size: 120%;*/
   }
 
-  .header-main {
-    align-items: center;
-    justify-content: center;
-  }
-
   .wrapper {
     /*max-width: 30em;*/
   }
@@ -126,7 +137,7 @@ MEDIA QUERIES
   .flex,
   .page {
     /*padding: 2em;*/
-    max-width: 40em;
+    /*max-width: 40em;*/
   }
 
 }
