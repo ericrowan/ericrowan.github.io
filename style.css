@@ -10,7 +10,6 @@ GLOBAL & RESET
 
 body {
   margin: 0;
-/*  color: #58595b; */
   font-family: "minion-pro", serif;
   font-size: 1em;
   line-height: 1.5;
@@ -37,12 +36,10 @@ h6 {
 }
 
 a {
-/*  color: #ff544f; */
   text-decoration: none;
 }
 
 a:hover {
-/*  color: #58595b; */
 }
 
 ul {
@@ -54,19 +51,13 @@ li {
 }
 
 .page-title {
-/*  font-family: "minion-pro", serif; */
   font-weight: 400;
   font-size: 2em;
 }
 
 .section-title,
 .section-subtitle {
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.section-title {
-/*  color: #c2d6c4; */
+/*   letter-spacing: 1px; */
 }
 
 .section-title::after {
@@ -82,11 +73,6 @@ li {
   margin: 1em 0 -1em;
 }
 
-.lead {
-  font-size: 120%;
-  font-style: italic;
-}
-
 /*
 ------------------
 LAYOUT & STRUCTURE
@@ -100,8 +86,6 @@ LAYOUT & STRUCTURE
 }
 
 .intro {
-  /*background: #f8faf9;*/
-/*  background: linear-gradient(to bottom, #ffffff, #f8faf9); */
   display: flex;
   height: 100vh;
 }
@@ -113,15 +97,6 @@ LAYOUT & STRUCTURE
 .intro ul li {
   display: inline-block;
 }
-
-/*
-.intro,
-.intro a,
-.intro .section-title {
-  background: #ff544f;
-  color: #ffffff;
-}
-*/
 
 section {
   margin-bottom: 4em;
