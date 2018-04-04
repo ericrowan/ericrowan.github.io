@@ -78,6 +78,7 @@ LAYOUT & STRUCTURE
 
 .intro ul li {
   display: inline-block;
+  margin-right: 1em;
 }
 
 section {
@@ -94,11 +95,6 @@ MEDIA QUERIES
 
   :root {
     font-size: 110%;
-  }
-
-  .intro {
-    align-items: center;
-    justify-content: center;
   }
 
   .wrapper {
