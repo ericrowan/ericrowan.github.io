@@ -55,24 +55,6 @@ li {
   font-size: 2em;
 }
 
-.section-title,
-.section-subtitle {
-/*   letter-spacing: 1px; */
-}
-
-.section-title::after {
-  display: block;
-  content: '—';
-}
-
-.section-subtitle {
-  margin: 4em 0 -1em;
-}
-
-.section-subtitle:first-of-type {
-  margin: 1em 0 -1em;
-}
-
 /*
 ------------------
 LAYOUT & STRUCTURE
