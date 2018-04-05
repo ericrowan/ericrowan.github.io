@@ -66,11 +66,11 @@ LAYOUT & STRUCTURE
   padding: 1em;
   margin: 0 auto;
 }
-/* 
+
 .intro {
   display: flex;
 }
- */
+
 .menu li {
   display: inline-block;
   margin-right: .25em;
