@@ -69,7 +69,6 @@ LAYOUT & STRUCTURE
 
 .intro {
   display: flex;
-  height: 100vh;
 }
 
 .intro ul li {
@@ -102,6 +101,10 @@ MEDIA QUERIES
     padding: 2em;
     max-width: 45em;
     margin: auto;
+  }
+
+  .intro {
+    height: 100vh;  
   }
 
   .page-title {
