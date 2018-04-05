@@ -66,12 +66,12 @@ LAYOUT & STRUCTURE
   padding: 1em;
   margin: 0 auto;
 }
-
+/* 
 .intro {
   display: flex;
 }
-
-.intro ul li {
+ */
+.menu li {
   display: inline-block;
   margin-right: .25em;
 }
