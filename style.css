@@ -64,7 +64,7 @@ LAYOUT & STRUCTURE
 .flex,
 .page {
   padding: 1em;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .intro {
@@ -101,6 +101,7 @@ MEDIA QUERIES
   .page {
     padding: 2em;
     max-width: 45em;
+    margin: auto;
   }
 
   .page-title {
