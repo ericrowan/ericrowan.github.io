@@ -40,6 +40,7 @@ a {
 }
 
 a:hover {
+/*   text-decoration: none; */
 }
 
 ul {
@@ -51,8 +52,6 @@ li {
 }
 
 .page-title {
-  font-family: "brandon-grotesque", sans-serif;
-  font-weight: 400;
   font-size: 2em;
 }
 
