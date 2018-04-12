@@ -36,10 +36,12 @@ h6 {
 }
 
 a {
-/*   text-decoration: none; */
+  color: #5757A5;
+  text-decoration: none;
 }
 
 a:hover {
+  color: #5757A5;
 /*   text-decoration: none; */
 }
 
