@@ -56,6 +56,10 @@ li {
   font-weight: 400;
 }
 
+.logo {
+  font-family: "brandon-grotesque", sans-serif;
+}
+
 /*
 ------------------
 LAYOUT & STRUCTURE
