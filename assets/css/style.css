@@ -20,6 +20,10 @@ img {
   max-width: 100%;
 }
 
+strong {
+  font-family: "brandon-grotesque", sans-serif;
+}
+
 /*
 ----------
 TYPOGRAPHY
