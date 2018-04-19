@@ -96,7 +96,7 @@ MEDIA QUERIES
   }
 
   .wrapper {
-    max-width: 100%;
+    max-width: 40em;
   }
 
   .flex,
