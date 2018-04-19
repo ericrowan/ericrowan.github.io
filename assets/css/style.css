@@ -58,6 +58,11 @@ li {
   font-weight: 400;
 }
 
+blockquote {
+  font-style: italic;
+  margin: 0;
+}
+
 /*
 ------------------
 LAYOUT & STRUCTURE
@@ -81,6 +86,11 @@ LAYOUT & STRUCTURE
 
 section {
   margin-bottom: 4em;
+}
+
+.centered {
+  margin: 0 auto;
+  width: 300px;
 }
 
 /*
