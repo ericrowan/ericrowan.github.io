@@ -96,7 +96,7 @@ MEDIA QUERIES
   }
 
   .wrapper {
-    max-width: 30em;
+    max-width: 100%;
   }
 
   .flex,
@@ -107,7 +107,7 @@ MEDIA QUERIES
   }
 
   .intro {
-    height: 100vh;  
+    height: 100vh;
   }
 
   .page-title {
