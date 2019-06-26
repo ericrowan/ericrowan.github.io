@@ -128,6 +128,10 @@ li {
   font-size: 2em;
 }
 
+.highlights + p {
+  margin-top: 2.5em;
+}
+
 /*
 -------------------------------------------------------------------------------
 LAYOUT & STRUCTURE
@@ -207,7 +211,6 @@ MEDIA QUERIES
 
   .skills ul {
     flex: 50%;
-    margin-right: 2em;
   }
 
   .columns {
