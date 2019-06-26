@@ -1,7 +1,43 @@
 /*
---------------
+-------------------------------------------------------------------------------
+CUSTOM FONTS
+-------------------------------------------------------------------------------
+*/
+
+@font-face {
+  font-family: Founders Grotesk;
+  font-weight: 400;
+  src: url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskWeb-Regular.eot)
+      format('eot'),
+    url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskWeb-Regular.woff2)
+      format('woff2'),
+    url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskWeb-Regular.woff)
+      format('woff'),
+    url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskWeb-Regular.ttf)
+      format('truetype'),
+    url('https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskWeb-Regular.svg#stringReplace(%22Founders%20Grotesk%22,%20%22%20%22,%20%22_%22)')
+      format('svg');
+}
+
+@font-face {
+  font-family: Founders Grotesk;
+  font-weight: 700;
+  src: url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskWeb-Bold.eot)
+      format('eot'),
+    url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskWeb-Bold.woff2)
+      format('woff2'),
+    url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskWeb-Bold.woff)
+      format('woff'),
+    url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskWeb-Bold.ttf)
+      format('truetype'),
+    url('https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskWeb-Bold.svg#stringReplace(%22Founders%20Grotesk%22,%20%22%20%22,%20%22_%22)')
+      format('svg');
+}
+
+/*
+-------------------------------------------------------------------------------
 GLOBAL & RESET
---------------
+-------------------------------------------------------------------------------
 */
 
 :root {
@@ -10,9 +46,10 @@ GLOBAL & RESET
 
 body {
   margin: 0;
-  font-family: "minion-pro", serif;
-  font-size: 1em;
-  line-height: 1.5;
+  font-family: 'Founders Grotesk', sans-serif;
+  font-size: 1.125em;
+  color: black;
+  line-height: 1.33;
   font-weight: 400;
 }
 
@@ -21,27 +58,61 @@ img {
 }
 
 strong {
-  font-family: "brandon-grotesque", sans-serif;
+  font-weight: 700;
+}
+
+small {
+  font-size: 80%;
+}
+
+blockquote {
+  font-weight: 700;
+  font-size: 110%;
+  color: rebeccapurple;
+  margin: 5em 0;
+  padding-left: 2em;
+  border-left: 3px solid rebeccapurple;
+}
+
+cite {
+  font-style: normal;
+  display: block;
+  margin-top: 1em;
+  font-size: 80%;
 }
 
 /*
-----------
+-------------------------------------------------------------------------------
 TYPOGRAPHY
-----------
+-------------------------------------------------------------------------------
 */
 
-h1, h2, h3, h4, h5, h6 {
-  /*  font-family: "brandon-grotesque", sans-serif; */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  line-height: 1;
 }
 
 a {
-  color: #5757A5;
-  text-decoration: none;
+  color: rebeccapurple;
+  text-decoration: underline;
 }
 
 a:hover {
-  color: #5757A5;
-  text-decoration: underline;
+  color: white;
+  background: rebeccapurple;
+}
+
+p {
+  margin: 0;
+}
+
+p + p {
+  margin-top: 1em;
 }
 
 ul {
@@ -54,69 +125,97 @@ li {
 
 .page-title {
   font-size: 2em;
-  font-weight: 400;
-}
-
-blockquote {
-  font-style: italic;
-  margin: 0;
 }
 
 /*
-------------------
+-------------------------------------------------------------------------------
 LAYOUT & STRUCTURE
-------------------
+-------------------------------------------------------------------------------
 */
 
-.flex, .page {
-  padding: 1em;
+.page {
+  width: 40em;
+  max-width: 85%;
   margin: 0 auto;
 }
 
 .intro {
-  display: flex;
+  margin: 10em auto;
+}
+
+.note {
+  background: rebeccapurple;
+  color: white;
+  padding: 0.25em 0.5em;
+  margin-right: 0.25em;
+}
+
+.menu {
+  align-self: end;
+  margin: 0;
 }
 
 .menu li {
-  display: inline-block;
-  margin-right: .25em;
+  margin-right: 0.5em;
+  display: inline-flex;
 }
 
 section {
   margin-bottom: 4em;
 }
 
-.portfolio {
-  columns: 2;
-  column-gap: 3em;
-  column-width: 250px;
+.columns {
+  columns: 1;
 }
 
-.portfolio li {
-  display: inline-flex;
+.columns ul {
+  margin: 0;
+}
+
+.columns li {
+  page-break-inside: avoid;
+  break-inside: avoid;
+  padding: 1em 0;
+}
+
+.wrapper {
+  max-width: 30em;
+}
+
+footer {
+  margin-bottom: 5em;
+}
+
+footer .menu {
+  margin-bottom: 5em;
 }
 
 /*
--------------
+-------------------------------------------------------------------------------
 MEDIA QUERIES
--------------
+-------------------------------------------------------------------------------
 */
 
-@media (min-width: 768px) {
+@media (min-width: 600px) {
   :root {
     font-size: 110%;
   }
-  .wrapper {
-    max-width: 30em;
+
+  .skills {
+    display: flex;
   }
-  .flex, .page {
-    padding: 2em;
-    max-width: 45em;
-    margin: auto;
+
+  .skills ul {
+    flex: 50%;
+    margin-right: 2em;
   }
-  .intro {
-    height: 100vh;
+
+  .columns {
+    columns: 2;
+    column-gap: 3em;
+    column-width: 250px;
   }
+
   .page-title {
     font-size: 2.25em;
   }
