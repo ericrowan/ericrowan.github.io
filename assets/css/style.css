@@ -10,7 +10,7 @@ GLOBAL & RESET
 
 body {
   margin: 0;
-  font-family: "minion-pro", serif;
+  font-family: 'FoundersGrotesk-Regular', sans-serif;
   font-size: 1em;
   line-height: 1.5;
   font-weight: 400;
@@ -21,7 +21,7 @@ img {
 }
 
 strong {
-  font-family: "brandon-grotesque", sans-serif;
+  font-family: 'FoundersGrotesk-Bold', sans-serif;
 }
 
 /*
@@ -30,17 +30,13 @@ TYPOGRAPHY
 ----------
 */
 
-h1, h2, h3, h4, h5, h6 {
-  /*  font-family: "brandon-grotesque", sans-serif; */
-}
-
 a {
-  color: #5757A5;
+  color: #94b0be;
   text-decoration: none;
 }
 
 a:hover {
-  color: #5757A5;
+  color: #94b0be;
   text-decoration: underline;
 }
 
@@ -68,7 +64,8 @@ LAYOUT & STRUCTURE
 ------------------
 */
 
-.flex, .page {
+.flex,
+.page {
   padding: 1em;
   margin: 0 auto;
 }
@@ -79,7 +76,7 @@ LAYOUT & STRUCTURE
 
 .menu li {
   display: inline-block;
-  margin-right: .25em;
+  margin-right: 0.25em;
 }
 
 section {
@@ -109,7 +106,8 @@ MEDIA QUERIES
   .wrapper {
     max-width: 30em;
   }
-  .flex, .page {
+  .flex,
+  .page {
     padding: 2em;
     max-width: 45em;
     margin: auto;
